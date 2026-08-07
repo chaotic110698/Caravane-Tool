@@ -34,6 +34,20 @@ d'ailleurs.
 La page d'accueil porte un **codex** : tout ce que vous avez écrit, rangé par
 catégorie, avec un bouton qui rouvre chaque élément dans l'outil qui l'a fait.
 
+## Les rôles sont une liste ouverte
+
+Quinze rôles arrivent avec le jeu — échevin, forgeron, contrebandier… — et **la liste
+est ouverte**. Le bouton *+ Nouveau rôle*, sous la liste déroulante de la fiche d'un
+personnage, en ajoute autant que vous voulez.
+
+Un rôle demande un **nom** (`Maître de poste` — accents et espaces bienvenus), un
+**féminin** (`Maîtresse de poste`, à laisser vide si le mot ne change pas) et une phrase
+d'explication. La clé se fabrique toute seule : `maitre-de-poste`. Renommer un rôle
+change sa clé, et les personnages qui le portaient suivent.
+
+Écrivez `{role}` dans un texte : il sort accordé sur l'accord du personnage. Le texte
+s'écrit une seule fois.
+
 ## Emporter son travail
 
 Deux boutons sur la page d'accueil, et deux besoins différents.
