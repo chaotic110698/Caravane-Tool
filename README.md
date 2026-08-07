@@ -15,6 +15,11 @@ tablette, un ordinateur qui n'est pas le vôtre.
 | [Événements](atelier-evenements.html) | une situation, un récit, deux à quatre issues | `evenements.json` |
 | [Dialogues](atelier-dialogues.html) | ce qu'on se dit : répliques, réponses, conditions | `dialogues.json` |
 | [Icônes](atelier-icones.html) | un symbole en six formes, et sa couleur | `icones.json` |
+| [Dialogues](atelier-dialogues.html) | des conversations : répliques, réponses, souvenirs | `dialogues.json` |
+
+L'atelier de carte pose aussi les **propriétés** — des terrains à acheter, avec le tarif
+et le coût de chaque bâtiment à régler dans son encart. Elles sortent dans
+`proprietes.json`.
 
 Six modes d'emploi les accompagnent :
 [événements](TUTORIEL-EVENEMENTS.md) ·
