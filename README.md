@@ -33,8 +33,14 @@ une icône dessinée apparaît aussitôt dans les listes de dessins de tous les
 autres. Le bouton *Ouvrir un fichier* ne sert plus qu'à reprendre un travail venu
 d'ailleurs.
 
-La page d'accueil porte un **codex** : tout ce que vous avez écrit, rangé par
-catégorie, avec un bouton qui rouvre chaque élément dans l'outil qui l'a fait.
+La page d'accueil porte deux vues du même travail. Le **codex** range tout par
+catégorie, avec un bouton qui rouvre chaque élément dans l'outil qui l'a fait. La
+**charpente** montre l'histoire elle-même : ce qui n'attend rien est en haut, et l'on
+descend vers ce que cela ouvre — une conversation confie une mission, la mission
+accomplie en ouvre une autre, un objet gagné délie une langue ailleurs. Chaque nœud
+porte le personnage auquel il tient, et les trous sont signalés : une mission que
+personne ne peut donner, un souvenir attendu que rien ne pose, une suite qui tourne
+en rond.
 
 ## Les rôles sont une liste ouverte
 
