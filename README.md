@@ -1,6 +1,6 @@
 # Les ateliers de Caravane
 
-Les six outils d'auteur de [Caravane](https://github.com/chaotic110698/Caravane-2),
+Les sept outils d'auteur de [Caravane](https://github.com/chaotic110698/Caravane-2),
 réunis sur une seule page pour les avoir sous la main partout — un téléphone, une
 tablette, un ordinateur qui n'est pas le vôtre.
 
@@ -13,16 +13,18 @@ tablette, un ordinateur qui n'est pas le vôtre.
 | [Objets uniques](atelier-objets.html) | ce qu'ils font, d'où ils viennent, ce qu'ils cachent | `objets.json` |
 | [Missions](atelier-missions.html) | qui les donne, ce qu'il faut faire, ce que ça rapporte | `missions.json` |
 | [Événements](atelier-evenements.html) | une situation, un récit, deux à quatre issues | `evenements.json` |
+| [Dialogues](atelier-dialogues.html) | ce qu'on se dit : répliques, réponses, conditions | `dialogues.json` |
 | [Icônes](atelier-icones.html) | un symbole en six formes, et sa couleur | `icones.json` |
 
-Cinq modes d'emploi les accompagnent :
+Six modes d'emploi les accompagnent :
 [événements](TUTORIEL-EVENEMENTS.md) ·
 [personnages](TUTORIEL-PERSONNAGES.md) ·
 [objets](TUTORIEL-OBJETS.md) ·
 [missions](TUTORIEL-MISSIONS.md) ·
-[icônes](TUTORIEL-ICONES.md).
+[icônes](TUTORIEL-ICONES.md) ·
+[dialogues](TUTORIEL-DIALOGUES.md).
 
-## Un seul dépôt pour les six
+## Un seul dépôt pour les sept
 
 Les ateliers **partagent leur travail**. La carte que vous tracez, l'atelier de
 personnages la connaît sans qu'on lui porte un fichier ; les personnages que vous
@@ -74,21 +76,21 @@ ouverte, aucun compte. Ils fonctionnent aussi bien depuis GitHub Pages que par
 double-clic sur le fichier téléchargé.
 
 **Rien ne sort de votre machine.** Le travail en cours est gardé dans le navigateur,
-dans un dépôt que les six ateliers partagent, et survit à la fermeture de l'onglet.
+dans un dépôt que les sept ateliers partagent, et survit à la fermeture de l'onglet.
 Exportez quand même de temps en temps : un navigateur qu'on nettoie emporte sa
 mémoire.
 
 ## Hors connexion
 
 Ajoutez la page d'accueil à votre écran d'accueil — *Partager › Sur l'écran
-d'accueil* sur iPhone, *⋮ › Installer* sur Android — et les six ateliers
+d'accueil* sur iPhone, *⋮ › Installer* sur Android — et les sept ateliers
 s'ouvrent ensuite **sans réseau**. Un `sw.js` les met en cache à la première
 visite, en préférant toujours le réseau quand il y en a, pour que vous ayez la
 dernière version.
 
 ## Sur téléphone
 
-Les cinq ateliers d'écriture montrent **une zone à la fois** : une barre en bas
+Les six ateliers d'écriture montrent **une zone à la fois** : une barre en bas
 passe de la liste à la fiche à l'aperçu, et les boutons se rangent dans le tiroir
 **☰ Outils**.
 
