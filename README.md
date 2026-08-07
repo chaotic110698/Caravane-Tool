@@ -1,6 +1,6 @@
 # Les ateliers de Caravane
 
-Les cinq outils d'auteur de [Caravane](https://github.com/chaotic110698/Caravane-2),
+Les six outils d'auteur de [Caravane](https://github.com/chaotic110698/Caravane-2),
 réunis sur une seule page pour les avoir sous la main partout — un téléphone, une
 tablette, un ordinateur qui n'est pas le vôtre.
 
@@ -13,12 +13,26 @@ tablette, un ordinateur qui n'est pas le vôtre.
 | [Objets uniques](atelier-objets.html) | ce qu'ils font, d'où ils viennent, ce qu'ils cachent | `objets.json` |
 | [Missions](atelier-missions.html) | qui les donne, ce qu'il faut faire, ce que ça rapporte | `missions.json` |
 | [Événements](atelier-evenements.html) | une situation, un récit, deux à quatre issues | `evenements.json` |
+| [Icônes](atelier-icones.html) | un symbole en six formes, et sa couleur | `icones.json` |
 
-Quatre modes d'emploi les accompagnent :
+Cinq modes d'emploi les accompagnent :
 [événements](TUTORIEL-EVENEMENTS.md) ·
 [personnages](TUTORIEL-PERSONNAGES.md) ·
 [objets](TUTORIEL-OBJETS.md) ·
-[missions](TUTORIEL-MISSIONS.md).
+[missions](TUTORIEL-MISSIONS.md) ·
+[icônes](TUTORIEL-ICONES.md).
+
+## Un seul dépôt pour les six
+
+Les ateliers **partagent leur travail**. La carte que vous tracez, l'atelier de
+personnages la connaît sans qu'on lui porte un fichier ; les personnages que vous
+écrivez, l'atelier de missions les propose déjà dans son onglet **Personnages** ;
+une icône dessinée apparaît aussitôt dans les listes de dessins de tous les
+autres. Le bouton *Ouvrir un fichier* ne sert plus qu'à reprendre un travail venu
+d'ailleurs.
+
+La page d'accueil porte un **codex** : tout ce que vous avez écrit, rangé par
+catégorie, avec un bouton qui rouvre chaque élément dans l'outil qui l'a fait.
 
 ## Rien à installer
 
@@ -28,20 +42,21 @@ ouverte, aucun compte. Ils fonctionnent aussi bien depuis GitHub Pages que par
 double-clic sur le fichier téléchargé.
 
 **Rien ne sort de votre machine.** Le travail en cours est gardé dans le navigateur,
-atelier par atelier, et survit à la fermeture de l'onglet. Exportez quand même de
-temps en temps : un navigateur qu'on nettoie emporte sa mémoire.
+dans un dépôt que les six ateliers partagent, et survit à la fermeture de l'onglet.
+Exportez quand même de temps en temps : un navigateur qu'on nettoie emporte sa
+mémoire.
 
 ## Hors connexion
 
 Ajoutez la page d'accueil à votre écran d'accueil — *Partager › Sur l'écran
-d'accueil* sur iPhone, *⋮ › Installer* sur Android — et les cinq ateliers
+d'accueil* sur iPhone, *⋮ › Installer* sur Android — et les six ateliers
 s'ouvrent ensuite **sans réseau**. Un `sw.js` les met en cache à la première
 visite, en préférant toujours le réseau quand il y en a, pour que vous ayez la
 dernière version.
 
 ## Sur téléphone
 
-Les quatre ateliers d'écriture montrent **une zone à la fois** : une barre en bas
+Les cinq ateliers d'écriture montrent **une zone à la fois** : une barre en bas
 passe de la liste à la fiche à l'aperçu, et les boutons se rangent dans le tiroir
 **☰ Outils**.
 
@@ -79,8 +94,8 @@ node outils/exporter-ateliers.mjs ../Caravane-Tool
 cd ../Caravane-Tool && git commit -am "Mise à jour des ateliers" && git push
 ```
 
-Le hub (`index.html`), le manifeste, le cache et l'icône vivent ici et ne sont pas
-touchés par la copie.
+Le manifeste, le cache et l'icône sont recopiés eux aussi ; seul ce README
+appartient à ce dépôt-ci et n'est jamais touché par la copie.
 
 ## Pour que le site s'affiche
 
