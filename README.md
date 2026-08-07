@@ -34,6 +34,24 @@ d'ailleurs.
 La page d'accueil porte un **codex** : tout ce que vous avez écrit, rangé par
 catégorie, avec un bouton qui rouvre chaque élément dans l'outil qui l'a fait.
 
+## Emporter son travail
+
+Deux boutons sur la page d'accueil, et deux besoins différents.
+
+**Tout sauvegarder** produit un `caravane-atelier-AAAA-MM-JJ.json` qui contient tout —
+le monde, les gens, les objets, les missions, les événements, les icônes, et jusqu'à
+l'élément que vous aviez ouvert dans chaque outil. C'est le fichier qui passe de
+l'ordinateur au téléphone. **Reprendre une sauvegarde** le relit, montre d'abord ce
+qu'il contient, puis vous laisse choisir : *fusionner* (à clé égale la sauvegarde
+l'emporte, et ce qu'elle ignore reste) ou *tout remplacer*.
+
+L'image de fond de la carte n'y voyage pas — trop lourde pour un JSON. Redéposez-la sur
+l'autre appareil, les lieux retomberont dessus.
+
+**Les fichiers du jeu**, en dessous, sortent une section à la fois sous le nom exact que
+`data/` attend. Rien n'oblige à tout finir avant de livrer : une liste de missions seule
+est un fichier valable.
+
 ## Rien à installer
 
 Chaque atelier est **un seul fichier HTML autonome** : le code, les catalogues et
