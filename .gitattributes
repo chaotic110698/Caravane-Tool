@@ -1,0 +1,10 @@
+# Les ateliers sont des fichiers HTML autonomes qu'on peut éditer depuis
+# l'interface web de GitHub : on fige les fins de ligne pour qu'un aller-retour
+# depuis une machine Windows ne réécrive pas 130 ko de diff pour rien.
+*.html   text eol=lf
+*.js     text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+*.webmanifest text eol=lf
+# et l'icône ne doit jamais être traitée comme du texte
+*.png    binary
